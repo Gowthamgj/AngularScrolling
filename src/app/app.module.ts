@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SkillComponent } from './skill/skill.component';
+import { TilesComponent } from './tiles/tiles.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SkillComponent,
+    TilesComponent
   ],
   imports: [
     BrowserModule

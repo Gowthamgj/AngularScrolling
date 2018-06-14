@@ -1,0 +1,11 @@
+<div *ngFor="let tile of tilesdet" class="col-lg-3 col-md-4 col-sm-6 wow bounceInUp" data-wow-duration="1s">
+  <div class="box">
+    <div class="image">
+            <img src={{tile.skillIcon}} width="120px" height="120px">
+    </div>
+    <div class="skill-name">{{tile.skillName}}</div>
+    <div class="skill-written">
+          {{tile.skillInfo}}
+    </div>
+  </div>
+</div>
